@@ -1,0 +1,8 @@
+group 'es.malvarez.log4shell'
+version '1.0-SNAPSHOT'
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}

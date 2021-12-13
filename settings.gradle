@@ -1,0 +1,3 @@
+include 'vulnerable-app', 'malicious-server'
+rootProject.name = 'log4jshell'
+

@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  address: 127.0.0.1
+  servlet:
+    context-path: /
+
+malicious:
+  ldap:
+    port: 1389
+  rmi:
+    port: 1099

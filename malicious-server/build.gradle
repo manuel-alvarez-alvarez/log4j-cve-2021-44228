@@ -1,0 +1,18 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.1'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'es.malvarez.log4shell.malicious'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+dependencies {
+    implementation 'com.unboundid:unboundid-ldapsdk:6.0.3'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation  'org.ow2.asm:asm:9.2'
+
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+}
